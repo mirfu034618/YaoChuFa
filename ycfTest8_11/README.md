@@ -4,7 +4,9 @@
 
    *（1）实现了cookie的设置、获取和删除功能，有待追加功能
 
-   *（2）调用方式：$cookie = new Ycf\Lession\Cookie\CookieClass();
+   *（2）调用方式：
+                
+                 $cookie = new Ycf\Lession\Cookie\CookieClass();
 
                  $cookie->set('test', 'yes', 5); //设置cookie的参数
 
@@ -17,7 +19,9 @@
 
    *（1）实现了session的创建启动、设置和获取功能
 
-   *（2）调用方式：$Session = new SessionClass();
+   *（2）调用方式：
+                  
+                  $Session = new SessionClass();
 
                   $Session->init();
 
