@@ -4,6 +4,8 @@
 
 2.stringClassTest.php用于测试StringClass类的功能
 
-  测试例子：$test = new StringClass(); //创建对象
+  测试例子：
+  
+           $test = new StringClass(); //创建对象
 
            echo $test->demo($str2); //
