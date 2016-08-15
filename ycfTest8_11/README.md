@@ -36,4 +36,4 @@
 
    *（3）index.php为首页，具有退出将删除用户存入cookie的用户信息
 
-   *（4）judge.php用于判断用户登录信息是否合法
+   *（4）judge.php用于判断用户登录信息是否合法,引用cookie类进行cookie的设置和删除
