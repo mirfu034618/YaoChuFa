@@ -1,33 +1,31 @@
 ##作业1：
 
   *（1）建立通讯录create database ebook;
+  
   *（2）建立员工表
                
-			   create table staff(
-			   
+	    create table staff(
                    id int(4) not null primary key auto_increment,
-				   name varchar(20) not null,
-				   sex varchar(10) not null,
-				   age int(4) not null default '0',
-				   telephone int(20) not null,
-				   email varchar(30) not null),
-				   home varchar(50) not null,
-				   jobID varchar(10) not null,
-				   depaID varchar(10) not null);
+		   name varchar(20) not null,
+		   sex varchar(10) not null,
+		   age int(4) not null default '0',
+		   telephone int(20) not null,
+		   email varchar(30) not null),
+		   home varchar(50) not null,
+		   jobID varchar(10) not null,
+	           depaID varchar(10) not null);
 				   
   *（3）建立部门表
                
-			   create table department(
-			   
-                    depaID varchar(10) not null primary key
-					dapeaName varchar(30) not null);
+	     create table department(
+		   depaID varchar(10) not null primary key
+		   dapeaName varchar(30) not null);
   
   *（4）建立职位表
                
-			   create table job(
-			   
-                    jobID varchar(10) not null primary key,
-					jobName varchar(30) not null);
+	     create table job(
+		   jobID varchar(10) not null primary key,
+		   jobName varchar(30) not null);
 					
 ##作业2：
 
@@ -35,14 +33,13 @@
   
   *（2）建立学生表
                
-			   create table studentTable(
-			   
-                     stuID int(4) not null primary auto_increment,
-					 stuName varchar(10) not null,
-					 stuAge int(4) not null,
-					 stuSex varchar(10) not null,
-					 phoneNum varchar(15) not null,
-					 stuHome varchar(50) not null);
+	     create table studentTable(
+		  stuID int(4) not null primary auto_increment,
+		  stuName varchar(10) not null,
+		  stuAge int(4) not null,
+		  stuSex varchar(10) not null,
+		  phoneNum varchar(15) not null,
+		  stuHome varchar(50) not null);
 					 
   *（3）修改学生表结构，添加一列信息，学历
   
@@ -54,11 +51,11 @@
 					 
   *（5）添加信息 
                  
-				 insert into studentTable values
+		 insert into studentTable values
                     (1,'A',22,'男','123456','小学'),
-					(2,'B',21,'男','119','中学'),
-					(3,'C',23,'男','110','高中'),
-					(4,'D',18,'女','114','大学');
+		    (2,'B',21,'男','119','中学'),
+		    (3,'C',23,'男','110','高中'),
+		    (4,'D',18,'女','114','大学');
 					
   *（6）将电话号码以11开头的学员的学历改为“大专”
   
@@ -88,29 +85,26 @@
 
   *（1）建立user表 
                 
-				create table user(
-				
-                    userNo varchar(10) not null primary key,
-					userName varchar(20) not null,
-					currentUnit varchar(20) not null,
-					age int(4) not null
-					);
+	     create table user(
+		  userNo varchar(10) not null primary key,
+		  userName varchar(20) not null,
+		  currentUnit varchar(20) not null,
+		  age int(4) not null
+		 );
 					
 		建立course表
 		
 		        create table course(
-				
-		             courseNo varchar(10) not null primary key,
-					 courseName varchar(20) not null
-					 );
+			    courseNo varchar(10) not null primary key,
+			    courseName varchar(20) not null
+			 );
 					 
 		建立point表
 		
 		        create table point(
-				
-		            userNo varchar(10) not null primary key,
-					courseNo varchar(10) not null 
-					);
+			   userNo varchar(10) not null primary key,
+			   courseNo varchar(10) not null 
+			);
 					
   *（2）查询选秀课程名为“税收基础”的学员学号和姓名
   
