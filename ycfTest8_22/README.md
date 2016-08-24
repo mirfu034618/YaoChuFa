@@ -1,30 +1,37 @@
-# HTML×÷Òµ
+# HTMLä½œä¸š
 
-## ÖÆ×÷ÓÃ»§×¢²áÒ³Ãæ£¬Éè¼Æ±í²¢½«Êı¾İ´æ´¢½øÈ¥£¬ÃÜÂëĞè¼ÓÃÜ
+## åˆ¶ä½œç”¨æˆ·æ³¨å†Œé¡µé¢ï¼Œè®¾è®¡è¡¨å¹¶å°†æ•°æ®å­˜å‚¨è¿›å»ï¼Œå¯†ç éœ€åŠ å¯†
 
-### ¼ò½é
+### ç®€ä»‹
 
-   * classÎÄ¼ş¼ĞÖĞ´æ·ÅÎÄ¼şÉÏ´«ÓëÊı¾İ¿âÁ½¸öÀà
+   * classæ–‡ä»¶å¤¹ä¸­å­˜æ”¾æ–‡ä»¶ä¸Šä¼ ä¸æ•°æ®åº“ä¸¤ä¸ªç±»
    
-### Ê¹ÓÃ½éÉÜ
+### ä½¿ç”¨ä»‹ç»
 
-   * Éè¼Æuser±í
+   * è®¾è®¡userè¡¨
    
      create table user{
 	    id int not null primary key auto_increment,
-		userName varchar(20) not null comment 'ÓÃ»§Ãû',
-		userPwd varchar(255) not null comment 'ÓÃ»§ÃÜÂë', //ÒòÎªÒª½øĞĞ¼ÓÃÜ£¬ËùÒÔ¸³Óè255µÄ³¤¶È
-		userSex varchar(5) not null comment 'ĞÔ±ğ',
-		userLikes varchar(30) not null comment '°®ºÃ',
-		userCity varchar(50) not null comment '³ÇÊĞ',
-		userPath varchar(50) not null comment 'ÉÏ´«ÕÕÆ¬µÄÂ·¾¶',
-		persional text not null comment '¸öÈË¼ò½é'
+
+		userName varchar(20) not null comment 'ç”¨æˆ·å',
+		
+		userPwd varchar(255) not null comment 'ç”¨æˆ·å¯†ç ', //å› ä¸ºè¦è¿›è¡ŒåŠ å¯†ï¼Œæ‰€ä»¥èµ‹äºˆ255çš„é•¿åº¦
+		
+		userSex varchar(5) not null comment 'æ€§åˆ«',
+		
+		userLikes varchar(30) not null comment 'çˆ±å¥½',
+		
+		userCity varchar(50) not null comment 'åŸå¸‚',
+		
+		userPath varchar(50) not null comment 'ä¸Šä¼ ç…§ç‰‡çš„è·¯å¾„',
+		
+		persional text not null comment 'ä¸ªäººç®€ä»‹'
 	);
 
-   * register.php±íµ¥ÖĞÊäÈëÄÚÈİÊ±½»ÓÉuploadInfor.phpÖĞ½øĞĞ¼òµ¥ÑéÖ¤
+   * register.phpè¡¨å•ä¸­è¾“å…¥å†…å®¹æ—¶äº¤ç”±uploadInfor.phpä¸­è¿›è¡Œç®€å•éªŒè¯
    
-     ÑéÖ¤ÓÃ»§ÃûÓëÃÜÂëÊÇ·ñÎª¿Õ£¬ÇÒÊäÈë³¤¶ÈÊÇ·ñ·ûºÏĞèÇó³¤¶È
+     éªŒè¯ç”¨æˆ·åä¸å¯†ç æ˜¯å¦ä¸ºç©ºï¼Œä¸”è¾“å…¥é•¿åº¦æ˜¯å¦ç¬¦åˆéœ€æ±‚é•¿åº¦
 	 
-   * uploadInfor.phpÎª±íµ¥Í¨¹ıÑéÖ¤ºóÌá½»µ½µÄÊı¾İ¿â´æ´¢´¦ÀíÒ³Ãæ
+   * uploadInfor.phpä¸ºè¡¨å•é€šè¿‡éªŒè¯åæäº¤åˆ°çš„æ•°æ®åº“å­˜å‚¨å¤„ç†é¡µé¢
    
-     Ò³ÃæÖĞ½øĞĞÊı¾İ»ñÈ¡²¢½«»ñÈ¡µ½µÄÃÜÂëÓÃMD5º¯Êı½øĞĞ¼ÓÃÜ´æ´¢
+     é¡µé¢ä¸­è¿›è¡Œæ•°æ®è·å–å¹¶å°†è·å–åˆ°çš„å¯†ç ç”¨MD5å‡½æ•°è¿›è¡ŒåŠ å¯†å­˜å‚¨
