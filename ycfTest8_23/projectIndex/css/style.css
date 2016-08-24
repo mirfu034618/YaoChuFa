@@ -1,0 +1,326 @@
+@charset "UTF-8";
+
+body{
+    width: 100%;
+}
+ul li{
+    list-style: none;
+}
+h2{
+    font-family: 仿宋;
+    font-size: 14px;
+}
+a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+/******************盒子1*****************/
+#boxOne{
+    width: 916px;
+    height: 72px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#boxOneLeft{
+    width: 300px;
+    height:72px;
+    float: left;
+}
+#boxOneRight{
+    width: 200px;
+    height: 30px;
+    float: left;
+    margin-left: 390px;
+    margin-top: 40px;
+    padding-left: 20px;
+}
+#boxOneRight a{
+    text-decoration: none;
+    color: #9EBECB;
+}
+#boxOneRight a:hover{
+    color: #666666;
+    font-size: 18px;
+}
+/****************盒子2***********************/
+#boxTwo{
+    width: 916px;
+    height: 31px;
+    background-image: url("../images/nav_bg.png");
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px 10px 0 0;
+}
+#boxTwoLeft{
+    width: 500px;
+    height: 30px;
+    float: left;
+    padding-left: 20px;
+}
+#boxTwoLeft table{
+    width: 450px;
+    height:30px;
+    text-align: center;
+}
+#boxTwoLeft a:hover{
+    color: #98ff66;
+}
+#boxTwoRight{
+    margin-left: 200px;
+    margin-top: 5px;
+    padding-left: 25px;
+    background: url("../images/timebg.gif") no-repeat;
+    height: 15px;
+    float: left;
+    color: #FFFFFF;
+}
+/*******************盒子3*********************/
+#boxFree{
+    width: 914px;
+    height: 193px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1px;
+}
+/********************盒子4*********************/
+#boxFour{
+    width: 916px;
+    height: auto;
+    background: url("../images/contentbg.gif") repeat-x;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10px;
+}
+#boxFourTop{
+    width: 890px;
+    height: 250px;
+    margin-left: auto;
+    margin-right: auto;
+}
+/*****************公司简介盒子**********************/
+#boxFourTopLeft{
+    width: 450px;
+    height: 250px;
+    float: left;
+}
+#aboutUs{
+    width: 450px;
+    height: 27px;
+    border-bottom: 1px solid #B5CFD9;
+}
+.aboutUs{
+    font-size: 14px;
+    color: #0000FF;
+    padding-left: 5px;
+}
+.aboutUb{
+    font-size: 14px;
+    padding-left: 10px;
+    color: #2366A8;
+}
+.aboutUsPic{
+    background: url("../images/titlebg.gif") repeat-x;
+    width: 150px;
+    height: 23px;
+    float: left;
+    padding-top: 3px;
+    border: 1px solid #B5CFD9;
+}
+#content{
+    width: 440px;
+    height: 200px;
+    padding: 10px 10px;
+}
+#contentTitle{
+    line-height: 25px;
+    font-size: 14px;
+}
+#contentMore{
+    width: 100px;
+    height: 20px;
+    margin-left: 350px;
+    margin-top: 20px;
+}
+#contentMore a{
+    color: #0099CC;
+}
+#contentMore a:hover{
+    color: #9EBECB;
+}
+/*****************最新公告列表盒子******************/
+#boxFourTopRight{
+    width: 420px;
+    height: 250px;
+    float: left;
+    margin-left: 20px;
+}
+#news{
+    width: 420px;
+    height: 27px;
+    border-bottom: 1px solid #B5CFD9;
+}
+#newsList{
+    width: 420px;
+    height:200px;
+    line-height: 35px;
+}
+.dateTime{
+    font-size: 16px;
+    height:29px;
+}
+#newsList ul{
+    padding-left: 10px;
+}
+#newsList li{
+    background: url("../images/list_rbg.gif") repeat-x left bottom;
+}
+#newsList a{
+    background: url("../images/liststyle.gif") no-repeat 0 5px;
+    padding-left: 10px;
+    color: darkslategrey;
+}
+#newsList a:hover{
+    color: #0033ff;
+}
+/*********************产品展示盒子********************/
+#boxFourCenter{
+    width: 890px;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#boxFourCenterLeft{
+    width: 440px;
+    height: 200px;
+    float: left;
+}
+#product{
+    width: 450px;
+    height:27px;
+    border-bottom: 1px solid #B5CFD9;
+}
+#product a{
+    color:#0099CC;
+}
+#product a:hover{
+    color: #9EBECB;
+}
+.more{
+    padding-left: 240px;
+    font-size: 14px;
+}
+#products{
+    width: 450px;
+    height:200px;
+}
+.productTitle{
+    height:22px;
+    line-height:22px;
+}
+#products ul{
+    padding-left: 10px;
+}
+#products ul li {
+    display:inline;
+    float:left;
+    width:120px;
+    padding:10px 20px 0 0;
+    text-align:center;
+}
+#products ul li a{
+    color: cadetblue;
+}
+#products ul li a:hover{
+    color: blue;
+}
+#products li img{
+    width: 130px;
+    height:96px;
+    border:1px solid #B5CFD9;
+}
+/****************行业资讯盒子********************/
+#boxFourCenterRight{
+    width: 420px;
+    height:200px;
+    float: left;
+    margin-left: 30px;
+}
+#information{
+    width: 420px;
+    height:27px;
+    border-bottom: 1px solid #B5CFD9;
+}
+#information a{
+    color:#0099CC;
+}
+#information a:hover{
+    color: #9EBECB;
+}
+#informationList{
+    width: 420px;
+    height:200px;
+    line-height: 30px;
+}
+#informationList ul{
+    padding-left: 10px;
+}
+#informationList ul li{
+    background: url("../images/list_rbg.gif") repeat-x left bottom;
+}
+#informationList ul li a{
+    background: url("../images/liststyle.gif") no-repeat 0 5px;
+    padding-left: 10px;
+    color: darkslategrey;
+}
+#informationList ul li a:hover{
+    color: #9EBECB;
+}
+.infotMore{
+    padding-left: 200px;
+    font-size: 14px;
+}
+/*******************链接盒子********************/
+#boxFive{
+    width: 890px;
+    height: 80px;
+    margin-left: auto;
+    margin-right:auto;
+}
+#link{
+    width: 890px;
+    height:27px;
+    border-bottom: 1px solid #B5CFD9;
+}
+#links{
+    width: 200px;
+    height: 50px;
+    padding-left: 10px;
+}
+#links a{
+    color: #2366A8;
+}
+#links a:hover{
+    color: #3266cc;
+}
+/*************************************/
+#boxSix{
+    width: 916px;
+    height:10px;
+    background: url("../images/titlebg.gif") repeat-x;
+}
+/***************底部信息******************/
+#boxSeven{
+    width: 916px;
+    height: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 14px;
+    color: black;
+    padding-left: 20px;
+}
+#boxSeven a{
+    color: black;
+}
+#boxSeven a:hover{
+    color: #3266cc;
+}
