@@ -11,21 +11,23 @@
    * 设计user表
    
      create table user{
+
 	    id int not null primary key auto_increment,
 
-		userName varchar(20) not null comment '用户名',
+	    userName varchar(20) not null comment '用户名',
 		
-		userPwd varchar(255) not null comment '用户密码', //因为要进行加密，所以赋予255的长度
+	    userPwd varchar(255) not null comment '用户密码', //因为要进行加密，所以赋予255的长度
 		
-		userSex varchar(5) not null comment '性别',
+	    userSex varchar(5) not null comment '性别',
 		
-		userLikes varchar(30) not null comment '爱好',
+	    userLikes varchar(30) not null comment '爱好',
 		
-		userCity varchar(50) not null comment '城市',
+	    userCity varchar(50) not null comment '城市',
 		
-		userPath varchar(50) not null comment '上传照片的路径',
+	    userPath varchar(50) not null comment '上传照片的路径',
 		
-		persional text not null comment '个人简介'
+	    persional text not null comment '个人简介'
+	    
 	);
 
    * register.php表单中输入内容时交由uploadInfor.php中进行简单验证
