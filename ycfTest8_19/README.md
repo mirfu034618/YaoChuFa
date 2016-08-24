@@ -4,7 +4,7 @@
 
     include "regularClass/RegularClass.php";
 
-    $reg = new RegularClass();
+    $reg = new Ycf\Lession\RegularClass();
 
     echo "作业1<br />";
 
