@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+.table{
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid #000000;
+    background: whitesmoke;
+}
+.tdh{
+    text-align: center;
+    border: 1px solid #000000;
+    background: dimgray;
+    color: #FF6600;
+}
+.tr{
+    border: 1px solid #000000;
+}
